@@ -175,6 +175,7 @@ function incrementByFour() {
   if (castleHealth <= 0) {
     gameStarted = false;
     document.getElementById("title").innerHTML = ("Castle Destroyed - You're dead");
+    document.getElementById("title").style.color = "red";
     document.getElementById("description").innerHTML = ("The horde has overwhelmed your forces. The castle town is burning and the keep is being pillaged. Refresh the page to try again.");
     document.getElementById("b0").remove();
     document.getElementById("b1").remove();
