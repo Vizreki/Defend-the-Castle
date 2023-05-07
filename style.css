@@ -1,0 +1,111 @@
+#title {
+    color: rgb(199, 185, 23);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 58px;
+    padding: 0;
+    font-family: 'MedievalSharp';
+    text-shadow: 2px 2px rgb(128, 5, 5);
+}
+
+#description {
+    color: #cee2e9;
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'MedievalSharp';
+}
+
+#castle {
+    color: #17ade3;
+    font-size: 32px;
+    top: 200px;
+    margin-bottom: 10px;
+    font-family: 'Garamond';
+}
+
+#camp {
+    color: #be1d1d;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Garamond';
+}
+
+#ourPoints {
+    color: #17ade3;
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: 'Garamond';
+}
+
+#theirPoints {
+    color: #be1d1d;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Garamond';
+}
+
+#b1,
+#b2,
+#b3 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #27327c;
+    line-height: 1.15;
+    font-size: 24px;
+    font-family: 'Garamond';
+}
+
+#b1:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #a20707;
+}
+
+#b2:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #a20707;
+}
+
+#b3:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #a20707;
+}
+
+#b0 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 100;
+    border-radius: 3px;
+    padding: 8px 12px;
+    border: 0;
+    color: #fff;
+    background: #2098bc;
+    line-height: 1.15;
+    font-size: 24px;
+    font-family: 'Garamond';
+}
+
+#b4 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #a02310;
+    line-height: 1.15;
+    font-size: 24px;
+    font-family: 'Garamond';
+}
