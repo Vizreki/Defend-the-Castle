@@ -53,13 +53,13 @@ document.getElementById("b1").style.backgroundColor = "DimGray";
 document.getElementById("b1").style.pointerEvents = "none";
 setTimeout(function() {
     document.getElementById("b1").disabled = false;
-}, 1600);
+}, 1300);
 setTimeout(function() {
     document.getElementById("b1").style.backgroundColor = null;
-}, 1600);
+}, 1300);
 setTimeout(function() {
     document.getElementById("b1").style.pointerEvents = "auto";
-  }, 1600);
+  }, 1300);
 }}
 
 function AddArcher(){
@@ -72,13 +72,13 @@ document.getElementById("b2").style.backgroundColor = "DimGray";
 document.getElementById("b2").style.pointerEvents = "none";
 setTimeout(function() {
     document.getElementById("b2").disabled = false;
-}, 3000);
+}, 2900);
 setTimeout(function() {
     document.getElementById("b2").style.backgroundColor = null;
-}, 3000);
+}, 2900);
 setTimeout(function() {
     document.getElementById("b2").style.pointerEvents = "auto";
-  }, 3000);
+  }, 2900);
 }}
 
 function AddKnight(){
