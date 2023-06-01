@@ -208,6 +208,14 @@ function CheckWin(){
   }
 }
 
+document.addEventListener('keydown', function(event) {
+  if (event.key === '1') {
+    if (gameStarted){
+    AddArcher();
+    }
+  }
+});
+
 function win() {
     var audio = new Audio('580310__colorscrimsontears__fanfare-2-rpg.wav');
     audio.play();
